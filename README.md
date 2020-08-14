@@ -1,5 +1,5 @@
 # python-api-challenge
-# Python API - What's the Weather Like?
+# Python API - Where can I find an Ideal Vacation Spot?
 
 ## Background
 
