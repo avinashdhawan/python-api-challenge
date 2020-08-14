@@ -1,5 +1,5 @@
 # python-api-challenge
-# Python API - Where can I find an Ideal Vacation Spot?
+# Python API - An Ideal Vacation Spot based on Weather
 
 ## Background
 
@@ -30,7 +30,7 @@ After these plots were generated a linear regression line was used to get the be
 The notebook presented shows:
 
 * 500 randomly selected cities based on latitude and longitude.
-* Performed weather check on these cities using Openweather API calls.
+* Performed weather check on these cities using OpenWeatherMap API calls.
 * All retrieved data was saved as a CSV file.
 
 ### Part II - VacationPy
