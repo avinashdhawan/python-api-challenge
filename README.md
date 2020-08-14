@@ -39,9 +39,9 @@ Now that I plotted the weather in the cities my goal was to using Google APIs fi
 
 I used jupyter-gmaps and the Google Places API for this part of the assignment.
 
-* Create a heat map that displays the humidity for every city from the part I of the homework.
+* Created a heat map that displays the humidity for every city from the part I of the homework.
 
-* Narrow down the DataFrame to find your ideal weather condition. For example:
+* To find the ideal temperature I used the following criteria:
 
   * A max temperature lower than 80 degrees but higher than 70.
 
@@ -49,22 +49,13 @@ I used jupyter-gmaps and the Google Places API for this part of the assignment.
 
   * Zero cloudiness.
 
-  * Drop any rows that don't contain all three conditions. You want to be sure the weather is ideal.
-
-  * **Note:** Feel free to adjust to your specifications but be sure to limit the number of rows returned by your API requests to a reasonable number.
-
 * Using Google Places API to find the first hotel for each city located within 5000 meters of your coordinates.
 
 * Plot the hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
 
-  ![hotel map](Images/hotel_map.png)
 
-As final considerations:
+Analysis was done using:
 
-* Create a new GitHub repository for this project called `API-Challenge` (note the kebab-case). **Do not add to an existing repo**
-* You must complete your analysis using a Jupyter notebook.
-* You must use the Matplotlib or Pandas plotting libraries.
-* For Part I, you must include a written description of three observable trends based on the data.
-* You must use proper labeling of your plots, including aspects like: Plot Titles (with date of analysis) and Axes Labels.
-* For max intensity in the heat map, try setting it to the highest humidity found in the data set.
+* Jupyter notebook.
+* Matplotlib was used.
 
